@@ -1,0 +1,10 @@
+.transaction-history {
+    width: 700px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.type {
+    border: 2px solid blue;
+    padding: 10px;
+}

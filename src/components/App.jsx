@@ -1,16 +1,24 @@
+import styles from './App.module.css'
+import Profile
+  from "./profile/Profile";
+import Statistics
+  from "./statistics/Statistics";
+import FriendList from "./friend-list/FriendList";
+import TransanctionHistory from "./transanction-history/TransanctionHistory";
+
+
+import user from '../data/user.json';
+
+
+  
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className={styles['app-container']}>
+      <Profile {...user} />
+      <Statistics title="Upload stats" />
+      <FriendList />
+      <TransanctionHistory />
+      
     </div>
   );
 };

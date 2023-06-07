@@ -1,0 +1,20 @@
+.statistics {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.title {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.stat-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    background-color: lightskyblue;
+    list-style: none;
+    padding: 20px;
+}
